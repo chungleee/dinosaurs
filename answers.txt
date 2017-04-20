@@ -1,0 +1,10 @@
+1.SELECT COUNT(id) FROM dinos;
+2.SELECT name, period FROM dinos WHERE period='Jurassic';
+3.SELECT SUM(length) FROM dinos WHERE period='Cretacious';
+4.SELECT name FROM dinos WHERE period='Jurassic' OR period='Cretaceous' ORDER BY species;
+5.SELECT name FROM dinos WHERE t_order='Saurischia' AND diet='Herbivorous';
+6.SELECT MIN(length) FROM dinos;
+  SELECT id, name FROM dinos WHERE length='0.08';
+  UPDATE dinos SET name='Shortie' WHERE id='160';
+7.SELECT name FROM dinos ORDER BY name LIMIT 1;
+8.
